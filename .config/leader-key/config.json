@@ -1,0 +1,91 @@
+{
+  "actions" : [
+    {
+      "key" : "g",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Ghostty.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "e",
+          "label" : "Emoji",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/emoji-symbols/search-emoji-symbols"
+        },
+        {
+          "key" : "p",
+          "label" : "Confetti",
+          "type" : "url",
+          "value" : "raycast://confetti"
+        },
+        {
+          "key" : "s",
+          "label" : "Screenshots",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/screenshots/search-screenshots"
+        },
+        {
+          "key" : "b",
+          "label" : "Raindrop",
+          "type" : "url",
+          "value" : "raycast://extensions/lardissone/raindrop-io/search"
+        },
+        {
+          "key" : "n",
+          "label" : "Notes",
+          "type" : "url",
+          "value" : "raycast://extensions/raycast/raycast-notes/create-note"
+        }
+      ],
+      "key" : "r",
+      "label" : "Raycast",
+      "type" : "group"
+    },
+    {
+      "key" : "a",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Arc.app"
+    },
+    {
+      "key" : "o",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Obsidian.app"
+    },
+    {
+      "key" : "s",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Spotify.app"
+    },
+    {
+      "actions" : [
+        {
+          "key" : "s",
+          "label" : "",
+          "type" : "application",
+          "value" : "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+        },
+        {
+          "key" : "c",
+          "label" : "",
+          "type" : "application",
+          "value" : "/Applications/Google Chrome.app"
+        }
+      ],
+      "key" : "b",
+      "label" : "Browser",
+      "type" : "group"
+    },
+    {
+      "key" : "z",
+      "label" : "",
+      "type" : "application",
+      "value" : "/Applications/Zen Browser.app"
+    }
+  ],
+  "type" : "group"
+}
