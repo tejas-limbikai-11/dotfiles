@@ -251,9 +251,18 @@ return {
 				end,
 				desc = "Search for Plugin Spec",
 			},
+			{
+				"<c-/>",
+				function()
+					Snacks.terminal()
+				end,
+				desc = "Toggle Terminal",
+			},
 		},
 		opts = {
 			scroll = { enabled = true },
+
+			toggle = { enabled = true },
 
 			explorer = { enabled = true },
 
